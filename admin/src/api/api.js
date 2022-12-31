@@ -5,7 +5,7 @@ import axios from "axios";
 // });
 
 const axiosInstance = axios.create({
-  baseURL: "http://provbm.com/api/v1/",
+  baseURL: "https://api.provbm.com/api/v1/",
 });
 
 export const findUserById = async (id, jwt) => {

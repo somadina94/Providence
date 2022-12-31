@@ -5,7 +5,13 @@ import TransationsList from "../main/TransactionsList";
 
 const HistoryList = (props) => {
   const userData = useSelector((state) => state.authSlice.user);
-  const transactions = userData.transactions;
+  const trans = userData.transactions;
+
+  const transs = Array.from(trans);
+
+  const transactions = transs.sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+  );
 
   if (transactions.length === 0) {
     return (

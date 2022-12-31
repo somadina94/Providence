@@ -28,7 +28,7 @@ const TransHistory = (props) => {
     (state) => state.transferSlice.showIntConfirm
   );
   const data = useLoaderData();
-  console.log(data);
+
   const user = data.data.user;
 
   useEffect(() => {

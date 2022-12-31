@@ -7,7 +7,7 @@ import classes from "./LoginForm.module.css";
 import { authActions } from "../../store.js/auth-slice";
 import { alertActions } from "../../store.js/alert-slice";
 import { loginUser } from "../../api/api";
-import LoadSpinner from "../UI/LoadSpinner";
+import SpinnerCover from "../UI/SpinnerCover";
 
 const LoginForm = (props) => {
   const navigate = useNavigate();
@@ -79,7 +79,7 @@ const LoginForm = (props) => {
 
   return (
     <Fragment>
-      {showSpinner && <LoadSpinner />}
+      {showSpinner && <SpinnerCover />}
       <form onSubmit={submitHandler} className={classes.form}>
         <h2>Login to Online Banking</h2>
         <div className={userNameclasses}>
