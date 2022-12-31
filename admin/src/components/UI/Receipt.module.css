@@ -1,0 +1,45 @@
+.receipt {
+  max-width: 60rem;
+  margin: auto;
+  background-color: #fff;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 10rem;
+  max-height: 10rem;
+  margin-left: 80%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: 3px solid #212529;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.conclusion {
+  border-top: 3px solid #212529;
+  padding-top: 1.4rem;
+}
+
+.receipt p {
+  font-size: 1.4rem;
+}

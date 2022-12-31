@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Somadina Onuaguluchi",
+    "accountNumber": 6551427421,
+    "balance": 3000,
+    "username": "somadina94",
+    "pin": 1994,
+    "securityQuestion": "What is the name of your first pet?",
+    "securityAnswer": "jet",
+    "token": 170251,
+    "dateOfBirith": "1994-04-05",
+    "email": "somadinao@protonmail.com",
+    "status": "active",
+    "phone": "07025204152",
+    "address": "No 30 Onuaguluchi's avenue, ihe-achi",
+    "role": "user",
+    "transactions": [
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "name": "Somadina Onuaguluchi",
+    "accountNumber": 6551427421,
+    "balance": 3000,
+    "username": "somadina94",
+    "pin": 1994,
+    "securityQuestion": "What is the name of your first pet?",
+    "securityAnswer": "jet",
+    "token": 170251,
+    "dateOfBirith": "1994-04-05",
+    "email": "somadinao@protonmail.com",
+    "status": "active",
+    "phone": "07025204152",
+    "address": "No 30 Onuaguluchi's avenue, ihe-achi",
+    "role": "user",
+    "transactions": [
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "name": "Somadina Onuaguluchi",
+    "accountNumber": 6551427421,
+    "balance": 3000,
+    "username": "somadina94",
+    "pin": 1994,
+    "securityQuestion": "What is the name of your first pet?",
+    "securityAnswer": "jet",
+    "token": 170251,
+    "dateOfBirith": "1994-04-05",
+    "email": "somadinao@protonmail.com",
+    "status": "active",
+    "phone": "07025204152",
+    "address": "No 30 Onuaguluchi's avenue, ihe-achi",
+    "role": "user",
+    "transactions": [
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "name": "Somadina Onuaguluchi",
+    "accountNumber": 6551427421,
+    "balance": 3000,
+    "username": "somadina94",
+    "pin": 1994,
+    "securityQuestion": "What is the name of your first pet?",
+    "securityAnswer": "jet",
+    "token": 170251,
+    "dateOfBirith": "1994-04-05",
+    "email": "somadinao@protonmail.com",
+    "status": "active",
+    "phone": "07025204152",
+    "address": "No 30 Onuaguluchi's avenue, ihe-achi",
+    "role": "user",
+    "transactions": [
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      },
+      {
+        "date": "2022-01-02",
+        "transferType": "local transfer",
+        "description": "ONB initiated by Williams Somadina Onuaguluchi",
+        "receipient": "6551427421",
+        "status": "successful",
+        "amount": 2000
+      }
+    ]
+  }
+]

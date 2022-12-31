@@ -1,0 +1,171 @@
+.form {
+  position: relative;
+  position: fixed;
+  top: 6vh;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  z-index: 99;
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 2rem;
+}
+
+.form h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #0b7285;
+  padding: 1rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.group-inner select {
+  font-size: 1.6rem;
+  height: 4rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-self: center;
+}
+
+.group label {
+  font-size: 1.6rem;
+}
+
+.group2 label {
+  font-size: 1.6rem;
+}
+
+.group2 input {
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  height: 4rem;
+  font-size: 1.8rem;
+  display: block;
+  min-width: 30rem;
+}
+
+.form button {
+  background-color: #0b7285;
+  font-size: 3rem;
+  padding: 1rem 8rem;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: #868e96;
+}
+
+.close:hover {
+  background-color: #343a40;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.invalid input {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid label {
+  color: #b40e0e;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.invalid select {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid select:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-size: 2rem;
+}
+
+@media (max-width: 81.25em) {
+  .form {
+    width: 70%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 58.7em) {
+  .form {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 45.1em) {
+  .form {
+    width: 100%;
+    height: 95%;
+  }
+}
+
+@media (max-width: 45.1em) {
+  .group2 input {
+    max-width: 30rem;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 45.1em) {
+  .group {
+    flex-direction: column;
+  }
+
+  .group2 input {
+    max-width: 100%;
+  }
+}

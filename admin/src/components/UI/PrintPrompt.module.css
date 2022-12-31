@@ -1,0 +1,47 @@
+.prompt {
+  max-width: 50rem;
+  margin: auto;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  margin-top: 6rem;
+  position: relative;
+  position: fixed;
+  top: 32vh;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 12;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prompt p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: #868e96;
+}
+
+.close:hover {
+  background-color: #343a40;
+}
+
+@media (max-width: 26.9em) {
+  .prompt p {
+    font-size: 1.6rem;
+  }
+}

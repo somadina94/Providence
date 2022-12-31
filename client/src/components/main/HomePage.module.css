@@ -1,0 +1,90 @@
+.homepage {
+  max-width: 140rem;
+  margin: auto;
+}
+
+.image-container {
+  max-width: 140rem;
+  height: 80rem;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.home-heading-primary {
+  text-align: center;
+  color: #0b7285;
+  padding-top: 10rem;
+  font-size: 8rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.image-container::after {
+  content: "";
+  background-image: url("../../images/home-pic.jpg");
+  background-size: cover;
+
+  background-position: center;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 4rem;
+  color: #fff;
+}
+
+.content p {
+  font-size: 2.4rem;
+}
+
+.check {
+  display: flex;
+}
+
+.content a,
+.content a:active,
+.content a:hover,
+.content a:visited {
+  font-size: 4rem;
+  background-color: #0b7285;
+  color: black;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  border-radius: 24px;
+  margin-top: 3rem;
+  border: 3px solid #fff;
+  box-shadow: 0rem 0rem 1rem 0.4rem black;
+}
+
+@media (max-width: 68.75em) {
+  .home-heading-primary {
+    padding-top: 4rem;
+    font-size: 4rem;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1.6rem;
+  }
+}

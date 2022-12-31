@@ -1,0 +1,47 @@
+.container {
+  max-width: 110rem;
+  margin: auto;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.container th {
+  border: 2px solid black;
+  font-size: 1.4rem;
+}
+
+.container td {
+  height: 4rem;
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0b7285;
+  font-size: 2rem;
+}
+
+thead {
+  max-width: 20rem;
+}
+
+.centered {
+  max-width: 110rem;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2rem;
+  background-color: #0b7285;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  margin: auto;
+}
+
+@media (max-width: 31.26em) {
+  section {
+    overflow-x: scroll;
+  }
+}

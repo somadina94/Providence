@@ -1,0 +1,39 @@
+.group {
+  max-width: 40rem;
+  min-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action button {
+  background-color: #c92a2a;
+  font-size: 1.4rem;
+  padding: 4px 12px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+  margin-top: 4rem;
+  cursor: pointer;
+  color: #fff;
+}

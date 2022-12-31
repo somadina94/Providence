@@ -1,0 +1,131 @@
+.link {
+  color: #0b7285;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+}
+
+.topnav {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+.dropdown {
+  max-width: 140rem;
+  width: 100%;
+  background-color: black;
+  padding: 8rem;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subnav {
+  display: flex;
+  flex-direction: column;
+}
+
+.subnav-title {
+  margin-left: 2rem;
+  font-size: 800;
+  font-weight: 800;
+}
+
+.menulist a,
+.menulist a:active,
+.menulist a:hover {
+  font-size: 1.6rem;
+  color: #0b7285;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 87.5em) {
+  .dropdown {
+    padding: 2rem;
+    max-width: 130rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 87.5em) {
+  .link {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 66.5em) {
+  .link {
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 53.2em) {
+  .menulist,
+  .menulist:hover {
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .link {
+    font-size: 1.6rem;
+    padding: 1rem 6rem;
+  }
+
+  .dropdown {
+    right: 17.7rem;
+    top: 0;
+    padding: 0;
+    justify-content: right;
+    flex-direction: column;
+    max-height: 90rem;
+    max-width: 25rem;
+    width: 25rem;
+  }
+
+  .subnav-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+
+  .menulist a,
+  .menulist a:active,
+  .menulist a:hover {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 26.7em) {
+  .link {
+    padding: 1rem 3rem;
+  }
+
+  .dropdown {
+    right: 13.7rem;
+    top: 0;
+    padding: 0;
+    justify-content: right;
+    flex-direction: column;
+    max-height: 90rem;
+    max-width: 25rem;
+  }
+
+  .dropdown {
+    right: 13.6rem;
+    top: 0;
+    padding: 0;
+    justify-content: right;
+    flex-direction: column;
+    max-height: 90rem;
+    max-width: 22.6rem;
+  }
+}

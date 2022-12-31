@@ -1,0 +1,85 @@
+.form {
+  max-width: 110rem;
+  margin: 4rem auto;
+  background-color: #0b7285;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 3px solid #212529;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.group-date {
+  display: flex;
+  gap: 1rem;
+}
+
+.form input {
+  border: 2px solid #0b7285;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.form select {
+  height: 4rem;
+  border: 2px solid #0b7285;
+  font-size: 2rem;
+}
+
+.form button {
+  height: 4rem;
+  padding: 0 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media (max-width: 68.75em) {
+  .form input {
+    font-size: 1.4rem;
+    max-width: 16rem;
+  }
+
+  .form button {
+    padding: 0 1rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 49.5em) {
+  .form input {
+    max-width: 10rem;
+  }
+
+  .form {
+    gap: 0;
+  }
+}
+
+@media (max-width: 49.5em) {
+  .form input {
+    max-width: 8rem;
+  }
+
+  .form select {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 49.5em) {
+  .form {
+    padding: 0;
+  }
+}
+
+@media (max-width: 27.9em) {
+  .form input {
+    max-width: 5rem;
+  }
+
+  .form select {
+    font-size: 0.8rem;
+  }
+}

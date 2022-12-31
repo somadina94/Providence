@@ -1,0 +1,13 @@
+.icon {
+  width: 4rem;
+  height: 4rem;
+  color: #0b7285;
+  align-self: center;
+}
+
+@media (max-width: 79.2em) {
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}

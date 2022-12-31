@@ -1,0 +1,94 @@
+.transactions {
+  max-width: 140rem;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
+  justify-items: center;
+}
+
+.form {
+  padding: 1rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  overflow-y: scroll;
+  max-height: 40rem;
+  margin-right: 5rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.group label {
+  font-size: 1.6rem;
+}
+
+.group input {
+  height: 3rem;
+  font-size: 1.6rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+}
+
+.group select {
+  font-size: 1.6rem;
+  height: 3rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action button {
+  background-color: #0b7285;
+  font-size: 1.6rem;
+  padding: 4px 12px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  color: #fff;
+}
+
+.form h2 {
+  text-align: center;
+  color: #0b7285;
+}
+
+@media (max-width: 76.8em) {
+  .transactions {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .transactions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 36.25em) {
+  .transactions {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    grid-column: span 1;
+    justify-self: center;
+  }
+}

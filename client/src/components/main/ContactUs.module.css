@@ -1,0 +1,37 @@
+.form {
+  position: relative;
+  max-width: 50rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #0b7285;
+  padding: 2rem;
+}
+
+.input {
+  height: 4rem;
+  font-size: 1.4rem;
+  border: 3px solid #0b7285;
+}
+
+.form label {
+  font-size: 2rem;
+}
+
+.textarea {
+  height: 16rem;
+  font-size: 1.4rem;
+  border: 3px solid #0b7285;
+  margin-bottom: 2rem;
+}
+
+.form button {
+  font-size: 2rem;
+  max-width: 20rem;
+  padding: 1rem 4rem;
+  margin: auto;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.success {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 8rem;
+  z-index: 110;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.247);
+  border-radius: 8px;
+}
+
+.success p {
+  text-align: center;
+  font-size: 3rem;
+  color: #0b7285;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: #868e96;
+}
+
+.close:hover {
+  background-color: #343a40;
+}

@@ -1,0 +1,87 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 40rem;
+  margin: auto;
+  padding: 0 2rem;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  font-size: 3rem;
+  color: #0b7285;
+}
+
+.group label {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0b7285;
+}
+
+.group input {
+  height: 4rem;
+  border-radius: 8px;
+  border: 2px solid #0b7285;
+  font-size: 2.4rem;
+}
+
+.group button {
+  padding: 1rem 10rem;
+  align-self: center;
+  font-size: 2.4rem;
+  background-color: #0b7285;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem rgb(63, 62, 62);
+  cursor: pointer;
+}
+
+.group a,
+.group a:hover,
+.group a:active,
+.group a:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0b7285;
+  align-self: center;
+  margin-top: 3rem;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.invalid input {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-size: 2rem;
+}
+
+@media (max-width: 53.2em) {
+  .form h2 {
+    font-size: 1.6rem;
+  }
+}

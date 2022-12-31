@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  max-width: 50rem;
+  margin: auto;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  margin-top: 8rem;
+}
+
+.form label {
+  font-size: 2rem;
+  color: #0b7285;
+}
+
+.form input {
+  height: 4rem;
+  font-size: 2.4rem;
+  border: 3px solid #0b7285;
+  border-radius: 8px;
+}
+
+.form button {
+  font-size: 2rem;
+  font-weight: 600;
+  align-self: center;
+  padding: 1rem 8rem;
+  background-color: #0b7285;
+  border: 3px solid #fff;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem rgb(63, 62, 62);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.invalid input {
+  border: 2px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-size: 2rem;
+}

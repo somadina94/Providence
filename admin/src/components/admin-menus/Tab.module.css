@@ -1,0 +1,19 @@
+.link {
+  color: #0b7285;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.link a,
+.link a:active,
+.link a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 37.9em) {
+  .link {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+}

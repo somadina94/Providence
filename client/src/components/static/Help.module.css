@@ -1,0 +1,34 @@
+.help {
+  margin: auto;
+  max-width: 140rem;
+  margin-top: 4rem;
+}
+
+.description {
+  margin-bottom: 4rem;
+}
+
+.description h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 50em) {
+  .title h2 {
+    font-size: 2.4rem;
+  }
+
+  .title p {
+    font-size: 1.4rem;
+  }
+
+  .description p {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,18 @@
+.error {
+  margin: auto;
+  max-width: 130rem;
+  padding: 4rem;
+  text-align: center;
+  border: 3px solid #0b7285;
+  margin-top: 6rem;
+}
+
+.error p {
+  font-size: 4rem;
+  color: #c92a2a;
+  background-color: #fff;
+  border: 3px solid #0b7285;
+  padding: 4rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}

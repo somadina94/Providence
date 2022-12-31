@@ -1,0 +1,20 @@
+.spinner {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 34%;
+  height: 38%;
+  z-index: 111;
+  background-color: transparent;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.spinner img {
+  width: 50%;
+  height: 70%;
+}

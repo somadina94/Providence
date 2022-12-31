@@ -1,0 +1,71 @@
+.investing {
+  margin: auto;
+  max-width: 140rem;
+  margin-top: 4rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.title h2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.title p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.image {
+  max-width: 60rem;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  margin-bottom: 4rem;
+}
+
+.description h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 50em) {
+  .image {
+    max-width: 40rem;
+  }
+
+  .title h2 {
+    font-size: 2.4rem;
+  }
+
+  .title p {
+    font-size: 1.4rem;
+  }
+
+  .description p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 38.9em) {
+  .image {
+    max-width: 20rem;
+  }
+}

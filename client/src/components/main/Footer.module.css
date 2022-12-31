@@ -1,0 +1,51 @@
+.footer {
+  max-width: 140rem;
+  margin: auto;
+  border-top: 3px solid #0b7285;
+  margin-top: 6rem;
+  padding-top: 4rem;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0 16rem;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:visited {
+  text-decoration: none;
+  color: #0b7285;
+}
+
+.footer address {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0 16rem;
+}
+
+.footer-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footerimg {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 53.2em) {
+  .footer p {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+
+  .footer address {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+}
